@@ -3,7 +3,7 @@
 <html class="html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SE no Automobilismo</title>
+    <title>SE no Setor Automotivo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@
     <div id="article_header">
 
       <div id="article_title">
-        <h1>Sistemas Embarcados no Automobilismo</h1>
+        <h1>Sistemas Embarcados no Setor Automotivo</h1>
         <div id="article_source">
           <p>Martterstech - Articles</p>
           <img src="./imgs/logo.png" alt="logo"/>

@@ -52,7 +52,7 @@
                     <?php }?>
 
                     <!--NAME SAVE-->
-                    <label for="name">Nome</label>
+                    <label for="name">Primeiro Nome</label>
                     <?php
                         if(isset($_GET['name']) && $_GET['name']!=="") { ?>
                         <input type="text" 
