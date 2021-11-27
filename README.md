@@ -27,24 +27,30 @@ Esse projeto Interdisciplinar foi apresentado no 2° Ano do curso de Desenvolvim
 <h2>Demonstração</h2>
 
 - Login
+
   <img src="./pictures_github/Login-preview.png" alt="Login"/>
 
 - Home
+
   <img src="./pictures_github/Home-preview.png" alt="Home"/>
 
 - Início
+
   <img src="./pictures_github/Inicio-preview.png" alt="Início"/>
 
 - Artigos
   <img src="./pictures_github/Artigos-preview.png" alt="Artigos"/>
 
 - Equipe
+
   <img src="./pictures_github/Equipe-preview.png" alt="Equipe"/>
 
 - Sistemas Embarcados no Setor Automotivo
+
   <img src="./pictures_github/Artigo-preview.png" alt="Artigo"/>
 
 - Dados
+
   <img src="./pictures_github/Dados-preview.png" alt="Dados"/>
 
 <h2>Como usar</h2>
