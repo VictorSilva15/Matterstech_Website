@@ -39,6 +39,7 @@ Esse projeto Interdisciplinar foi apresentado no 2° Ano do curso de Desenvolvim
   <img src="./pictures_github/Inicio-preview.png" alt="Início"/>
 
 - Artigos
+
   <img src="./pictures_github/Artigos-preview.png" alt="Artigos"/>
 
 - Equipe
