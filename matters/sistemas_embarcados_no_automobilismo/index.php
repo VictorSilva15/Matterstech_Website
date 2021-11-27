@@ -113,18 +113,6 @@
         </br> 
 
         <h2>História dos Carros Autônomos </h2>
-
-        <p>Para manter o programa armazenado, micro controladores possuem memória
-          não volátil do tipo Flash. Alguns ainda integram uma EEPROM, sendo que é
-          usada para manter dados de configuração da aplicação, por exemplo, dados 
-          de calibração. Já os dados são carregados em memória volátil do tipo SRAM
-          durante a inicialização do programa. A memória pode ser definida como um 
-          conjunto de elementos que armazenam informação. Em uma memória semicondutora,
-          o elemento básico é chamado célula de memória. A célula de memória é capaz de
-          armazenar a informação de 1 bit, isto é, apresenta dois estados estáveis, 1 ou 0.
-          Além disso, deve possibilitar que a informação seja definida (gravada)
-          e verificada (lida).
-        </p>
       
         <p>O primeiro projeto de carro autônomo como conhecemos hoje foi desenvolvido pelo Google em 2010. 
           De lá para cá, diversas montadoras e grandes empresas como Lyft, Uber, Apple, Samsung decidiram
@@ -150,6 +138,20 @@
         <p>Ideia para os carros autônomos é chegar ao ponto em que o motorista seja dispensável, 
         fazendo com que todos os ocupantes apenas aproveitem a viagem. Para isso, a tecnologia
         precisa evoluir a um patamar de segurança confiável. 
+        </p>
+
+        <br/>
+
+        <p>Para manter o programa armazenado, micro controladores possuem memória
+          não volátil do tipo Flash. Alguns ainda integram uma EEPROM, sendo que é
+          usada para manter dados de configuração da aplicação, por exemplo, dados 
+          de calibração. Já os dados são carregados em memória volátil do tipo SRAM
+          durante a inicialização do programa. A memória pode ser definida como um 
+          conjunto de elementos que armazenam informação. Em uma memória semicondutora,
+          o elemento básico é chamado célula de memória. A célula de memória é capaz de
+          armazenar a informação de 1 bit, isto é, apresenta dois estados estáveis, 1 ou 0.
+          Além disso, deve possibilitar que a informação seja definida (gravada)
+          e verificada (lida).
         </p>
 
         <br/>

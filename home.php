@@ -53,13 +53,13 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <!--MAIN ARTICLE SECTION-->
     <section id="start_section_1">
       <div id="start_section_1_banner">
-        <h2 id="section_1_title">Sistemas Embarcados <br> no Automobilismo</h2>
+        <h2 id="section_1_title">Sistemas Embarcados <br> no Setor Automotivo</h2>
         <p id="section_1_subtitle">Matéria Em Destaque. Acesse já! </p>
-        <a id="main_article_link" target="_blank" href="./matters/sistemas_embarcados_no_automobilismo/index.php">ACESSAR</a>
+        <a id="main_article_link" href="./matters/sistemas_embarcados_no_automobilismo/index.php">ACESSAR</a>
       </div>
      
       <p id="lorem">
-      Essa semana vamos falar sobre Sistemas Embarcados no Automobilismo, um tema muito importante
+      Essa semana vamos falar sobre Sistemas Embarcados no Setor Automotivo, um tema muito importante
       que vem mudando a forma como percebemos a tecnologia. Um futuro que antes parecia distante,
       hoje está mais perto do que nunca. Os famosos Teslas são prova disso, porém temos muito caminho
       a percorrer. Por tanto, aqui vamos apresentar os principais pontos dessa integração e como os 
@@ -78,7 +78,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <div class="mySlides fade">
           <div class="slides_texts">
             <h2 class="slides_title">A Nova Cara da Tecnologia</h2>
-            <p class="slide_little_text">Sistemas Embarcados e sua influencia no Automobilismo</p>
+            <p class="slide_little_text">Sistemas Embarcados e sua influencia no Setor Automotivo</p>
             <a class="slide_link_to_article" href="matters/sistemas_embarcados_no_automobilismo/index.php">Acesse Já</a>
           </div>
           <div class="slide_image_article">

@@ -29,31 +29,26 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         if(mysqli_num_rows($result) === 1){
             
             if(!empty($newname) || !empty($newemail) || !empty($np)){
-                if(!empty($newname)){
+                $changesDid = 0;
+                if(!empty($newname) && $newname !== $oldname){
                     if(strlen($newname) < 3){
                         header("Location: change-datas.php?error=Nome deve conter mais de 3 caractéres");
                         exit(); 
-                    }else if($newname === $oldname){
-                        header("Location: change-datas.php?error=Nome deve ser diferente do antigo");
-                        exit();
                     }else{
                         $sql_name = "UPDATE users SET name='$newname' WHERE id='$id'";
                         mysqli_query($conn, $sql_name);
 
                         $_SESSION['name'] = $newname;
+                        $changesDid++;
                     }
                 }
-
-                if(!empty($newemail)){
-                    if($newemail === $oldemail){
-                        header("Location: change-datas.php?error=Email deve ser diferente do antigo");
-                        exit();
-                    }else{
-                        $sql_email = "UPDATE users SET email='$newemail' WHERE id='$id'";
-                        mysqli_query($conn, $sql_email);
+                if(!empty($newemail) && $newemail !== $oldemail){
+                    
+                    $sql_email = "UPDATE users SET email='$newemail' WHERE id='$id'";
+                    mysqli_query($conn, $sql_email);
     
-                        $_SESSION['email'] = $newemail;
-                    }   
+                    $_SESSION['email'] = $newemail;  
+                    $changesDid++; 
                 }
 
 
@@ -79,11 +74,17 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     $sql_2 = "UPDATE users SET password='$np' WHERE id='$id'";
                     mysqli_query($conn, $sql_2);
 
-                    $_SESSION['passowrd'] = $np;
+                    $_SESSION['password'] = $np;
+                    $changesDid++;
                 }
-
-                header("Location: change-datas.php?success=Dados Alterados com Sucesso!");
-                exit();
+                if($changesDid === 0){
+                    header("Location: change-datas.php?error=Nenhum Dado foi alterado!");
+                    exit();
+                }else{
+                    header("Location: change-datas.php?success=Dados Alterados com Sucesso!");
+                    exit();
+                }
+                
             }else{
                 header("Location: change-datas.php?error=Preencha os Campos Corretamente");
                 exit();
