@@ -66,7 +66,6 @@ $ composer require phpmailer/phpmailer
 
 Caso esteja usando Windows ou outro sistema operacional, visite o site oficial deles clicando [aqui](https://packagist.org/packages/phpmailer/phpmailer)
 
-<img  src="./screenshots/forma-de-baixar-projeto.png"  alt="forma de baixar projeto">
 
 ### 🛠 Tecnologias
 
