@@ -52,7 +52,7 @@ if(isset($_POST['username_to_change_pass'])) {
             $mail->SMTPAuth = true;
             $mail->Port = 587; 
             $mail->Username = 'matterstech01@gmail.com';
-            $mail->Password = 'jxuizuyyeszrmaot';
+            $mail->Password = 'lgyeatujrjwwsqnw';
 
             $mail->setFrom('matterstech01@gmail.com', 'matterstech');
             $mail->addReplyTo('matterstech01@gmail.com', 'matterstech');
